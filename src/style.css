@@ -1,1 +1,55 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(116, 142, 150);
+}
+
+.card {
+  width: 400px;
+  height: 500px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: white;
+  position: relative; /* Necesario para posicionar elementos absolutos */
+}
+
+.simbolo {
+  font-size: 80px;
+  position: absolute;
+}
+
+#top-simbolo {
+  top: -10px;
+  left: 10px;
+}
+
+#bottom-simbolo {
+  bottom: -5px;
+  right: 10px;
+}
+
+.numero {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 450px; /* Centra verticalmente el número */
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+}
